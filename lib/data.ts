@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import recommenderImg from "@/public/recommender.png";
+import lstmImg from "@/public/lstm.png";
+import mostsoldreasonImg from "@/public/most_sold_reason.png";
+import shopifyautomationImg from "@/public/shopifyautomation.jpeg";
 
 export const links = [
   {
@@ -35,73 +36,73 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated from Rajshasi University of Engineering & Technology",
+    location: "Rajshahi, Bangladesh",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying. I did freelancing while studying.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Web Scraing & Automation Engineer",
+    location: "Remote",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a freelancer for 3 years as web scraper and automation engineer.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2023",
   },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
+  
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Recommender System",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Colaborative filtering based system where the filtering is done by only considering people having more than 50 reviews.",
+    tags: ["Scikit-Learn", "Pandas", "Numpy", "Flask", "HTML", "CSS"],
+    imageUrl: recommenderImg,
+    githubLink: "https://github.com/hasanmehedi2309/book_recommendation_system",
   },
   {
-    title: "rmtDev",
+    title: "Next Word Generator",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "The LSTM-based Next Word Generator project employs advanced neural networks to predict subsequent words in text sequences, enhancing language modeling and facilitating more accurate text generation.",
+    tags: ["Tensorflow", "Keras", "Numpy"],
+    imageUrl: lstmImg,
+    githubLink: "https://github.com/hasanmehedi2309/next_word_predictor",
   },
   {
-    title: "Word Analytics",
+    title: "Sales Data Analysis",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "The sales data analysis project provided valuable insights into sales trends and patterns, aiding strategic decision-making processes.",
+    tags: ["Pandas", "Matplotlib"],
+    imageUrl: mostsoldreasonImg,
+    githubLink: "https://github.com/hasanmehedi2309/sales_data_analysis",
+  },
+  {
+    title: "Shopify & Telegram Automation",
+    description:
+      "The project utilizies scripts to collect new/cancelled orders 24/7 and deliver details to a designated Telegram group.",
+    tags: ["Requests", "Api","Pandas","Json"],
+    imageUrl: shopifyautomationImg,
+    githubLink: "https://github.com/hasanmehedi2309/RedStore",
   },
 ] as const;
 
 export const skillsData = [
+  "Pandas",
+  "Numpy",
+  "Matplotlib",
+  "Sklearn",
+  "Tensorflow",
+  "MATLAB",
+  "Git",
+  "Requests",
+  "Selenium",
+  "BeautifulSoup",
+  "Python",
+  "Transformers",
+  "Flask",
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
 ] as const;
